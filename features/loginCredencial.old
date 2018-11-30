@@ -1,0 +1,10 @@
+#language:pt
+
+Funcionalidade: Projeto Habilitação
+Cenário: 1 - Permissão de acesso ao portal Credenciado, sem Permissão de acesso à Visão Habilitação.
+Dado acesso ao portal de credenciado
+E feche o pop-up 
+E digite o código do prestador
+E digite a senha do prestador
+E clique no botão Pesquisar
+Então o acesso deve ser concluido
